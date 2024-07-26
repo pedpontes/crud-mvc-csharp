@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\rinha_backend_cs.props" />
+</Project>
