@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using rinha_backend_cs.Model;
 
 namespace rinha_backend_cs.Controller{
     [ApiController]
@@ -6,13 +7,18 @@ namespace rinha_backend_cs.Controller{
     public class TestController : ControllerBase {
         
         [HttpGet]
-        public IActionResult Get() {
-            return Ok();
+        public IActionResult Get([FromQuery] string? id){
+            Console.WriteLine($"{id}");
+            return id is null 
+                ? NotFound()
+                : Ok(id);
         }
         
-        [HttpGet("{uri}")]
-        public IActionResult Get(string uri) {
-            return uri != "youtube" ? Ok() : Redirect("https://www.youtube.com");
+        [HttpPost]
+        public IActionResult Post([FromBody] LoginData data) {
+            return data is null 
+                ? BadRequest(new {message = "Campos devem ser preenchidos."}) 
+                : Ok($"username: {data.Name}, pass: {data.Pass}");
         }
 
     }
