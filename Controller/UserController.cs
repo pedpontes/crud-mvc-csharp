@@ -15,7 +15,7 @@ namespace rinha_backend_cs.Controller
         }
         
         [HttpGet]
-        public IActionResult Get([FromQuery] string? id){
+        public IActionResult Get([FromQuery] string id){
             
             if(_context.Users == null)  return NotFound(new { Erro = "Database its down"});
 
@@ -28,17 +28,6 @@ namespace rinha_backend_cs.Controller
             return Ok(user);
         }
         
-        [HttpPost]
-        public IActionResult Post([FromBody] LoginData data) {
-            if(_context.Users == null)  return NotFound(new { Erro = "Database its down."});
-
-            if(data.Name == null || data.Pass == null) return BadRequest(new { Erro = "Campos incompletos." });
-
-            var user = _context.Users.FirstOrDefault(u => u.Name == data.Name && u.Password == data.Pass);
-
-            if (user == null) return Unauthorized(new { Erro = "Invalid credenttials." });
-
-            return Ok(new { message = $"Sucessefull login: {user.Name}"});
-        }
+        
     }
 }
