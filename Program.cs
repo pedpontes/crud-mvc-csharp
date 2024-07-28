@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using rinha_backend_cs.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

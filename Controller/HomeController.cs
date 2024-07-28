@@ -5,7 +5,7 @@ namespace rinha_backend_cs.Controller
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TestController : ControllerBase {
+    public class HomeController : ControllerBase {
         
         [HttpGet]
         public IActionResult Get([FromQuery] string? id){
