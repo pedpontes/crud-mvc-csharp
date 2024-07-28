@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using rinha_backend_cs.Model;
 
-namespace rinha_backend_cs.Controller{
+namespace rinha_backend_cs.Controller
+{
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TestController : ControllerBase {
         
         [HttpGet]
@@ -16,6 +18,13 @@ namespace rinha_backend_cs.Controller{
         
         [HttpPost]
         public IActionResult Post([FromBody] LoginData data) {
+
+            // using(var db = new UserContext()){
+            //     Userdb.Users.AddAsync(data.UserName, data.Password);
+            // }
+
+
+
             return data is null 
                 ? BadRequest(new {message = "Campos devem ser preenchidos."}) 
                 : Ok($"username: {data.Name}, pass: {data.Pass}");
