@@ -17,3 +17,11 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Pedro Pontes\Documents\rinha_backend_cs
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Pedro Pontes/Documents/rinha_backend_cs/View/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xMb2dpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro Pontes/Documents/rinha_backend_cs/View/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

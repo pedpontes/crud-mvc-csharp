@@ -1,13 +1,14 @@
 
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using rinha_backend_cs.Data;
 using rinha_backend_cs.Models;
 
 namespace rinha_backend_cs.Controller
 {
     [ApiController]
-    [Route("/api/[controller]")]
+    [Route("[controller]")]
     public class LoginController : ControllerBase{
 
         private readonly AppDbContext _context;

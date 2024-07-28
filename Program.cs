@@ -10,6 +10,8 @@ builder.Services.AddDbContextPool<AppDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -23,5 +25,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 app.MapControllers();
+app.UseStaticFiles();
+app.MapRazorPages();
 
 app.Run();
