@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rinha_backend_cs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99f71847a6930eea741b5eba84397ffc7b4e79b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d5c7c34233598f28d55be03674adbf6b01575bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("rinha_backend_cs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rinha_backend_cs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

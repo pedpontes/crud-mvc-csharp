@@ -1,0 +1,17 @@
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\rinha_backend_cs.exe
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\appsettings.Development.json
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\appsettings.json
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\rinha_backend_cs.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\rinha_backend_cs.runtimeconfig.json
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\rinha_backend_cs.pdb
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Microsoft.OpenApi.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\MySqlConnector.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\output\rinha_backend_cs.deps.json
