@@ -1,7 +1,5 @@
 
-using System.Text.Json.Serialization;
-
-namespace rinha_backend_cs.Model{
+namespace rinha_backend_cs.Models{
     public class LoginData(string name, string pass)
     {
         // public int Id { get; set;}

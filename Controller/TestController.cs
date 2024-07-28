@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using rinha_backend_cs.Model;
+using rinha_backend_cs.Models;
 
 namespace rinha_backend_cs.Controller
 {
