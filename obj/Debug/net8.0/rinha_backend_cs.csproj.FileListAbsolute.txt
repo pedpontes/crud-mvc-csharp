@@ -107,3 +107,10 @@ C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\MySqlConnector
 C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Pedro Pontes\Documents\rinha_backend_cs\obj\Debug\net8.0\rinha_backend_cs.RazorAssemblyInfo.cache
 C:\Users\Pedro Pontes\Documents\rinha_backend_cs\obj\Debug\net8.0\rinha_backend_cs.RazorAssemblyInfo.cs
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Pedro Pontes\Documents\rinha_backend_cs\bin\Debug\net8.0\System.Security.Permissions.dll
