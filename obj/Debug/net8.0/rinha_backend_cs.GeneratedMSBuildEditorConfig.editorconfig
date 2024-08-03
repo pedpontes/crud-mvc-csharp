@@ -17,3 +17,15 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\secre\crud-webapi-csharp
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/secre/crud-webapi-csharp/Views/Add/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/secre/crud-webapi-csharp/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/secre/crud-webapi-csharp/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
