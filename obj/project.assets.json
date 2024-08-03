@@ -9156,19 +9156,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pedro Pontes\\Documents\\rinha_backend_cs\\rinha_backend_cs.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro Pontes\\Documents\\learning-dotnet-mvc\\rinha_backend_cs.csproj",
       "projectName": "rinha_backend_cs",
-      "projectPath": "C:\\Users\\Pedro Pontes\\Documents\\rinha_backend_cs\\rinha_backend_cs.csproj",
+      "projectPath": "C:\\Users\\Pedro Pontes\\Documents\\learning-dotnet-mvc\\rinha_backend_cs.csproj",
       "packagesPath": "C:\\Users\\Pedro Pontes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pedro Pontes\\Documents\\rinha_backend_cs\\obj\\",
+      "outputPath": "C:\\Users\\Pedro Pontes\\Documents\\learning-dotnet-mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pedro Pontes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Pedro Pontes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9238,7 +9241,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
