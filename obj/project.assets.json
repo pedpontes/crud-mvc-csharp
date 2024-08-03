@@ -2754,19 +2754,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pedro Pontes\\.nuget\\packages\\": {}
+    "C:\\Users\\secre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pedro Pontes\\Documents\\rinha_backend_cs\\rinha_backend_cs.csproj",
+      "projectUniqueName": "C:\\Users\\secre\\crud-webapi-csharp\\rinha_backend_cs.csproj",
       "projectName": "rinha_backend_cs",
-      "projectPath": "C:\\Users\\Pedro Pontes\\Documents\\rinha_backend_cs\\rinha_backend_cs.csproj",
-      "packagesPath": "C:\\Users\\Pedro Pontes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pedro Pontes\\Documents\\rinha_backend_cs\\obj\\",
+      "projectPath": "C:\\Users\\secre\\crud-webapi-csharp\\rinha_backend_cs.csproj",
+      "packagesPath": "C:\\Users\\secre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\secre\\crud-webapi-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pedro Pontes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\secre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2837,7 +2837,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
