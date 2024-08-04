@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using rinha_backend_cs.Data;
+using crud_api_view.Data;
 using System.Linq.Expressions;
 
-namespace rinha_backend_cs.Controllers
+namespace crud_api_view.Controllers
 {
     public class UsersController : Controller {
 
@@ -17,16 +17,31 @@ namespace rinha_backend_cs.Controllers
             try
             {
                 var users = _context.Users;
-                foreach (var user in users){
-                    Console.WriteLine($"{user.Id} {user.Name} {user.Age}");
-                }
                 return View(users);
-                
             }
             catch(Exception ex) { 
                 Console.WriteLine (ex.Message);
                 return Redirect("login");
             }
+        }
+
+        [HttpDelete("[controller]")]
+        public IActionResult Delete([FromQuery] string id ){
+            if(id == "") return BadRequest();
+            try
+            {
+                var user = _context.Users.Find(int.Parse(id));
+                if(user == null) return NotFound();
+                Console.WriteLine(user.Name);
+                _context.Users.Remove(user);
+                _context.SaveChanges();
+                return StatusCode(201);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro:" + ex);
+            }
+            return StatusCode(201);
         }
     }
 }

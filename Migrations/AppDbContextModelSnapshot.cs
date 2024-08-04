@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using rinha_backend_cs.Data;
+using crud_api_view.Data;
 
 #nullable disable
 
-namespace rinha_backend_cs.Migrations
+namespace crud_api_view.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace rinha_backend_cs.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("rinha_backend_cs.Models.User", b =>
+            modelBuilder.Entity("crud_api_view.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

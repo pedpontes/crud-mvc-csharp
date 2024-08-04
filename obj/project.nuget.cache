@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hOmVIjEhLZU=",
+  "dgSpecHash": "iZatQ99eJn8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\secre\\crud-webapi-csharp\\rinha_backend_cs.csproj",
+  "projectFilePath": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\secre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\secre\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

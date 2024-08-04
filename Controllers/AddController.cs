@@ -1,11 +1,9 @@
 
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using rinha_backend_cs.Data;
-using rinha_backend_cs.Models;
-using System.Linq.Expressions;
+using crud_api_view.Data;
+using crud_api_view.Models;
 
-namespace rinha_backend_cs.Controllers
+namespace crud_api_view.Controllers
 {
     public class AddController : Controller
     {

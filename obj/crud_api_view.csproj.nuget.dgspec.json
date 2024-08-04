@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\secre\\crud_api_view\\rinha_backend_cs.csproj": {}
+    "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj": {}
   },
   "projects": {
-    "C:\\Users\\secre\\crud_api_view\\rinha_backend_cs.csproj": {
+    "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\secre\\crud_api_view\\rinha_backend_cs.csproj",
-        "projectName": "rinha_backend_cs",
-        "projectPath": "C:\\Users\\secre\\crud_api_view\\rinha_backend_cs.csproj",
+        "projectUniqueName": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
+        "projectName": "crud_api_view",
+        "projectPath": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
         "packagesPath": "C:\\Users\\secre\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\secre\\crud_api_view\\obj\\",
         "projectStyle": "PackageReference",

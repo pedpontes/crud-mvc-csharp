@@ -1,9 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc;
-using MySqlConnector;
-using rinha_backend_cs.Data;
+using crud_api_view.Data;
 
-namespace rinha_backend_cs.Controllers{
+namespace crud_api_view.Controllers{
 
     public class LoginController : Controller{
         private readonly AppDbContext _context;

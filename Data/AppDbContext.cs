@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using rinha_backend_cs.Models;
+using crud_api_view.Models;
 
-namespace rinha_backend_cs.Data{
+namespace crud_api_view.Data{
     public class AppDbContext : DbContext{
 
         public AppDbContext(DbContextOptions options) : base(options) { }

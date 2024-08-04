@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "0+WmDFuT6ESSn7eCsr/flg2pM5sQFbI9Sf8I+asEu5Y=",
-  "Source": "rinha_backend_cs",
-  "BasePath": "_content/rinha_backend_cs",
+  "Hash": "3ngupnS+t7lAxi4ruASBj/hNEwV/PtX4JfqbqoxsCvo=",
+  "Source": "crud_api_view",
+  "BasePath": "_content/crud_api_view",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

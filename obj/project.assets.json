@@ -9156,11 +9156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\secre\\crud-webapi-csharp\\rinha_backend_cs.csproj",
-      "projectName": "rinha_backend_cs",
-      "projectPath": "C:\\Users\\secre\\crud-webapi-csharp\\rinha_backend_cs.csproj",
+      "projectUniqueName": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
+      "projectName": "crud_api_view",
+      "projectPath": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
       "packagesPath": "C:\\Users\\secre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\secre\\crud-webapi-csharp\\obj\\",
+      "outputPath": "C:\\Users\\secre\\crud_api_view\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\secre\\AppData\\Roaming\\NuGet\\NuGet.Config"

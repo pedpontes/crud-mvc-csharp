@@ -1,4 +1,4 @@
-@using rinha_backend_cs.Models
+@using crud_api_view.Models
 
 @model IEnumerable<User>
 
@@ -19,6 +19,7 @@
                 <th>Name</td>
                 <th>Age</td>
                 <th>Password</td>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -28,10 +29,31 @@
                     <td>@user.Name</td>
                     <td>@user.Age</td>
                     <td>@user.Password</td>
+                    <td><input id="@user.Id" type="button" value="X" onclick="dell(event)"></td>
                 </tr>
             }
         </tbody>
     </table>
+    <script>
+        const dell =async (e) => {
+            e.preventDefault();
+            const id = e.target.id;
+            console.log(id);
+            
+            try{
+                const response = await fetch(`users?id=${id}`, {method: 'delete'})
+                const status = await response.status;
+                console.log(status == 201 ? "Usuario excluido com sucesso!": "Erro ao excluir usuario."); 
+                setTimeout(() => document.location.reload(), 5000);
+                return;
+
+            }catch(error){
+                console.log(error);
+                return document.location.reload();
+            }
+
+        }
+    </script>
 </body>
 </htusing System.Collections;
 #line default

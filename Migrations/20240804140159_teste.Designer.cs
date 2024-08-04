@@ -4,15 +4,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using rinha_backend_cs.Data;
+using crud_api_view.Data;
 
 #nullable disable
 
-namespace rinha_backend_cs.Migrations
+namespace crud_api_view.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240803033326_adddb")]
-    partial class adddb
+    [Migration("20240804140159_teste")]
+    partial class teste
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace rinha_backend_cs.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("rinha_backend_cs.Models.User", b =>
+            modelBuilder.Entity("crud_api_view.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

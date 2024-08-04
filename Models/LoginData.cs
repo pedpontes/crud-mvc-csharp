@@ -1,7 +1,7 @@
 
 using System.Text.Json.Serialization;
 
-namespace rinha_backend_cs.Models{
+namespace crud_api_view.Models{
     }
     public class LoginData{
         [JsonPropertyName("username")]   //definição da propriedade JSON em POST

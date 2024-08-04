@@ -344,3 +344,16 @@ C:\Users\secre\crud-webapi-csharp\obj\Debug\net8.0\scopedcss\bundle\rinha_backen
 C:\Users\secre\crud-webapi-csharp\obj\Debug\net8.0\rinha_ba.54ACEAFD.Up2Date
 C:\Users\secre\crud-webapi-csharp\obj\Debug\net8.0\rinha_backend_cs.genruntimeconfig.cache
 C:\Users\secre\crud-webapi-csharp\obj\Debug\net8.0\ref\rinha_backend_cs.dll
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.csproj.AssemblyReference.cache
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.AssemblyInfoInputs.cache
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.AssemblyInfo.cs
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.csproj.CoreCompileInputs.cache
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.RazorAssemblyInfo.cache
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.RazorAssemblyInfo.cs
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.sourcelink.json
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.dll
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\refint\rinha_backend_cs.dll
+C:\Users\secre\crud_api_view\obj\Debug\net8.0\rinha_backend_cs.pdb
