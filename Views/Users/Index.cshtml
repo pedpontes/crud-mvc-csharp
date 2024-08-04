@@ -11,7 +11,6 @@
     <title>Users</title>
 </head>
 <body>
-    users
     <table>
         <thead>
             <tr>
@@ -30,11 +29,49 @@
                     <td>@user.Age</td>
                     <td>@user.Password</td>
                     <td><input id="@user.Id" type="button" value="X" onclick="dell(event)"></td>
+                    <td><input id="@user.Id" type="button" value="Edit" onclick="edit(@user.Id, '@user.Name', @user.Age)"></td>
                 </tr>
             }
         </tbody>
     </table>
+
+    @* modal *@
+    <div id="modalUserEdit" style="display: none;">
+        <h1 id="idEdit"></h1>
+        <form onsubmit="editSave">
+            <label for="name">
+                <input type="text" name="name" id="nameEdit">
+            </label>
+            <label for="age">
+                <input type="number" name="age" id="ageEdit">
+            </label>
+            <label for="pass">
+                <input type="password" name="pass" id="passEdit">
+            </label>
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
     <script>
+        const editSave = (e) => {
+            e.preventDefault();
+            console.log(e.target);
+            return;
+        }
+
+        const edit = (id, name, age) => {
+            const modal = document.querySelector("div#modalUserEdit");
+            const idEdit = document.querySelector("#idEdit");
+            const nameEdit = document.querySelector("#nameEdit");
+            const ageEdit = document.querySelector("#ageEdit");
+            modal.setAttribute("style", "display: block;");
+
+            idEdit.textContent = id;
+            nameEdit.setAttribute("placeholder", `${name}`);
+            ageEdit.setAttribute("placeholder", `${age}`);
+
+
+            return;
+        }
         const dell =async (e) => {
             e.preventDefault();
             const id = e.target.id;
@@ -42,7 +79,6 @@
             try{
                 const response = await fetch(`users?id=${id}`, {method: 'delete'})
                 const status = await response.status;
-                alert(status == 201 ? "Removido com sucesso." : "Erro ao remover usuario.");
                 document.location.reload();
 
                 return;
@@ -51,7 +87,6 @@
                 console.log(error);
                 return document.location.reload();
             }
-
         }
     </script>
 </body>
