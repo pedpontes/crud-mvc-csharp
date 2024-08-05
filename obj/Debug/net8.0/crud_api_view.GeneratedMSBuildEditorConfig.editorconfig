@@ -9,23 +9,23 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = crud_api_view
 build_property.RootNamespace = crud_api_view
-build_property.ProjectDir = C:\Users\secre\crud_api_view\
+build_property.ProjectDir = C:\Users\Pedro Pontes\Documents\learning-dotnet-mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\secre\crud_api_view
+build_property.MSBuildProjectDirectory = C:\Users\Pedro Pontes\Documents\learning-dotnet-mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/secre/crud_api_view/Views/Add/Index.cshtml]
+[C:/Users/Pedro Pontes/Documents/learning-dotnet-mvc/Views/Add/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/secre/crud_api_view/Views/Login/Index.cshtml]
+[C:/Users/Pedro Pontes/Documents/learning-dotnet-mvc/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/secre/crud_api_view/Views/Users/Index.cshtml]
+[C:/Users/Pedro Pontes/Documents/learning-dotnet-mvc/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

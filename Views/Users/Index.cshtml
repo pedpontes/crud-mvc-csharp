@@ -38,7 +38,7 @@
     @* modal *@
     <div id="modalUserEdit" style="display: none;">
         <h1 id="idEdit"></h1>
-        <form onsubmit="editSave">
+        <form onsubmit="editSave(event)">
             <label for="name">
                 <input type="text" name="name" id="nameEdit">
             </label>
@@ -72,7 +72,7 @@
 
             return;
         }
-        const dell =async (e) => {
+        const dell = async (e) => {
             e.preventDefault();
             const id = e.target.id;
             

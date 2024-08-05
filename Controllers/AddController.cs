@@ -24,14 +24,14 @@ namespace crud_api_view.Controllers
 
             try
             {
-                _context.Users.AddAsync(dataUser);
+                _context.Users.Add(dataUser);
                 _context.SaveChanges();
-                return Ok(new {status = true});
+                return Redirect("add");
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
-                return Ok(new {status = false});
+                return Redirect("add");
             }
 
             // Console.WriteLine($"{dataUser.Name}  {dataUser.Age}  {dataUser.Password}");

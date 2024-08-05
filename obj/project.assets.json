@@ -9151,24 +9151,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\secre\\.nuget\\packages\\": {}
+    "C:\\Users\\Pedro Pontes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro Pontes\\Documents\\learning-dotnet-mvc\\crud_api_view.csproj",
       "projectName": "crud_api_view",
-      "projectPath": "C:\\Users\\secre\\crud_api_view\\crud_api_view.csproj",
-      "packagesPath": "C:\\Users\\secre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\secre\\crud_api_view\\obj\\",
+      "projectPath": "C:\\Users\\Pedro Pontes\\Documents\\learning-dotnet-mvc\\crud_api_view.csproj",
+      "packagesPath": "C:\\Users\\Pedro Pontes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pedro Pontes\\Documents\\learning-dotnet-mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\secre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Pedro Pontes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
