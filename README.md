@@ -8,6 +8,7 @@
 - Adição de Usuários: Adicione novos usuários.
 ## Ferramentas Utilizadas
 - ASP.NET Core: Framework utilizado para criar a API que gerencia os usuários.
+- Entity Framework: ORM para a interação com o banco de dados.
 - MySQL/MariaDB: Banco de dados relacional utilizado para armazenar as informações dos usuários.
 - HTML/CSS: Utilizado para estruturar e estilizar a página web.
 - JavaScript: Utilizado para adicionar interatividade à página web, como exibir modais e lidar com a edição e exclusão de usuários.
