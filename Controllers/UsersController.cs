@@ -40,8 +40,8 @@ namespace crud_api_view.Controllers
             catch (Exception ex)
             {
                 Console.WriteLine("Erro:" + ex);
+                return StatusCode(500);
             }
-            return StatusCode(201);
         }
     }
 }
