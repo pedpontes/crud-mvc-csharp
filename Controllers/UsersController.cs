@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using crud_api_view.Data;
-using System.Linq.Expressions;
+using crud_api_view.Models;
+using Microsoft.AspNetCore.Razor.Language;
+using System.Diagnostics.CodeAnalysis;
 
 namespace crud_api_view.Controllers
 {
@@ -22,6 +24,30 @@ namespace crud_api_view.Controllers
             catch(Exception ex) { 
                 Console.WriteLine (ex.Message);
                 return Redirect("login");
+            }
+        }
+
+        [HttpPut("[controller]")]
+        public IActionResult Put([FromBody] User data){
+            Console.WriteLine(data.Id);
+            if(data == null) return StatusCode(400);
+
+            try
+            {
+                var user = _context.Users.FirstOrDefault(x => x.Id == data.Id);
+                if(user == null) return StatusCode(404);
+                if(!string.IsNullOrEmpty(data.Name)) user.Name = data.Name;
+                if(data.Age != 0) user.Age = data.Age;
+                if(!string.IsNullOrEmpty(data.Password)) user.Password = data.Password;
+
+                _context.SaveChanges();
+
+                return StatusCode(200);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro: ", ex);
+                return StatusCode(500);
             }
         }
 
